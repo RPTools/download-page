@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import GitHubReleases from './GitHubReleases';
+import './styles.css';
 
 const App = () =>
     <div>
-        <h1>Test React App</h1>
         <GitHubReleases/>
     </div>;
 
 render(<App/>, document.getElementById('root'));
-
 
 
