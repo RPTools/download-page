@@ -3,7 +3,7 @@ import axios from 'axios';
 import Releases from './Releases';
 import DownloadType from './DownloadType';
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
 
 
 
@@ -119,7 +119,7 @@ export default class GitHubReleases extends Component {
         }
 
         return (
-            <Router>
+            <Router basename="/">
                 <div>
                     <Route path='/:tool' component={this.releaseList} />
                     <ul>
