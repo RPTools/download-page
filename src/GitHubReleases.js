@@ -67,7 +67,7 @@ export default class GitHubReleases extends Component {
 
         return (
             <div>
-                <h2>{tool} Releases</h2>
+                <h2 className="tool-release-title">{tool} Releases</h2>
                 <div className="release-download-type">
                     <select value={this.state.downloadType} name='Download Type' onChange={this.handleDownloadTypeChange}>
                         <option value={DownloadType.ALL}>{DownloadType.ALL}</option>
