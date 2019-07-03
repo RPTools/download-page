@@ -1,0 +1,95 @@
+
+.header-box {
+    width: 100%;
+}
+/* **************************************************************************** */
+.tool-release-title {
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+.release-name {
+    display: table-cell;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tag-name {
+    display: table-cell;
+    padding: 5px;
+}
+
+.draft {
+    display: table-cell;
+    padding: 5px;
+}
+
+.published-date {
+    display: table-cell;
+    padding: 5px;
+    font-size: smaller;
+}
+
+.prerelease {
+    display: table-cell;
+    padding: 5px;
+}
+
+.release-notes {
+    display: table-cell;
+    padding: 5px;
+}
+
+.release-img {
+    display: table-cell;
+    padding: 5px;
+}
+
+.release-img img {
+    width: 50px;
+    display: table-cell;
+    padding: 5px;
+}
+
+.release-download-type {
+    display: table-cell;
+    padding: 5px;
+}
+
+.release-download-prerelease {
+    display: table-cell;
+    padding: 5px;
+}
+/* **************************************************************************** */
+
+.download-details {
+    display: table-cell;
+    padding: 5px;
+    text-align: center;
+    alignment: center;
+}
+
+.download-details label {
+    padding: 5px;
+    text-align: center;
+}
+
+.download-name {
+    display: table-cell;
+    padding: 5px;
+}
+
+.download-count {
+    display: table-cell;
+    padding: 5px;
+    font-size: smaller;
+}
+
+.download-url {
+    display: table-cell;
+    padding: 5px;
+}
