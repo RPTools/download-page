@@ -2,7 +2,7 @@
   "name": "react-gh-pages-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rptools.github.io/downloads",
+  "homepage": "http://rptools.github.io/download-page",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
